@@ -1,25 +1,21 @@
 import React, { useEffect, useState } from 'react'
-import 'animate.css'
-import $ from "jquery"
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
+import { delay, motion } from "framer-motion"
 export default function OurServices() {
     
 
-
+const [mover, setMove] = useState(false)
 
   
 
  return <>
     <div className="ourServices bg-white py-5">
         <div className="container">
+         
             <div className="head text-center dark-text">
                 <h2 className='ourServ'>OUR SERVICES</h2>
             </div>
             <div className="row g-3 my-5 p-5 cursor-pointer">
-                <div className="col-md-3 managment fade-down-left">
+                < motion.div viewport={{once:true}}  whileInView={{x:0}} initial={{x:-100}} transition={{ duration: 0.5, type: "tween" }} className="col-md-3 managment fade-down-left">
                     <div className="innercolServ ">
                         <div className='img'></div>
                   
@@ -37,15 +33,15 @@ export default function OurServices() {
                     we help you achieve your true potential by studying, designing, and implementing innovative approaches. Our team will work with you step by step, every day to analyze your trends, execute new models and plan for your future to maximize your potential. Our approach will help you define and develop your unique sales points (USPs)
                         </p>                  
                         </div>
-                </div>
-                <div className="col-md-3 buss animate__animated animate__fadeInLeft  animate__delay-.5s">
+                </motion.div>
+                <motion.div viewport={{once:true}} whileInView={{x:0}} initial={{x:-100}} transition={{ duration: 0.5, type: "tween" }} className="col-md-3 buss">
                     <div className="innercolServ ">
                         <div className='img2'></div>
                   
                         
                     </div>
                     <div className="colored m-auto  text-center">
-                    <h3 className='ourServH3 mt-3  mb-3 red-border position-relative '>
+                    <h3 className='ourServH3 mt-3  mb-3 green-border position-relative '>
                     BUSINESS DEVELOPMENT
                         </h3>
                     </div>
@@ -56,8 +52,8 @@ export default function OurServices() {
 
                         </p>                  
                         </div>
-                </div>
-                <div className="col-md-3 hr animate__animated animate__fadeInLeft">
+                </motion.div>
+                <motion.div viewport={{once:true}} whileInView={{x:0}} initial={{x:-100}} transition={{ duration: 0.5, type: "tween" }} className="col-md-3 hr ">
                     <div className="innercolServ ">
                         <div className='img3'></div>
                   
@@ -75,15 +71,15 @@ export default function OurServices() {
 
                         </p>                  
                         </div>
-                </div>
-                <div className="col-md-3 digital animate__animated animate__fadeInLeft">
+                </motion.div>
+                <motion.div viewport={{once:true}} whileInView={{x:0}} initial={{x:-100}} transition={{ duration: 0.5, type: "tween"  } }  className="col-md-3 digital ">
                     <div className="innercolServ ">
                         <div className='img4'></div>
                   
                         
                     </div>
                     <div className="colored m-auto  text-center">
-                    <h3 className='ourServH3 mt-4  mb-3 red-border position-relative '>
+                    <h3 className='ourServH3 mt-4  mb-3 yellow-border position-relative '>
                     DIGITAL TRANSFORMATION                        </h3>
                     </div>
                     <div className="outerCol  m-auto w-75 text-center">
@@ -92,8 +88,8 @@ export default function OurServices() {
                     We design your digital future; Digital transformation is a must to cope with the New Normal where your digital channels, self-services and App are mandatory, and it is not auxiliary anymore.
                         </p>                  
                         </div>
-                </div>
-                <div className="col-md-3 offset-md-3 managment animate__animated animate__fadeInLeft  animate__delay-1s">
+                </motion.div>
+                <motion.div viewport={{once:true}} whileInView={{x:0}} initial={{x:-300}} transition={{ duration: 1.5, type: "tween" } } className="col-md-3 offset-md-3 managment  ">
                     <div className="innercolServ ">
                         <div className='img5'></div>
                   
@@ -109,15 +105,15 @@ export default function OurServices() {
                     Arrows ICC’s team will help you build your WOW Customer Experience and transform your business. We build the customer experience strategy from the customer’s point of view. We consider the true meaning of Customer Experience where the customers’ needs and expectations are the basis to deliver a remarkable experience.
                         </p>                  
                         </div>
-                </div>
-                <div className="col-md-3 buss  animate__animated animate__fadeInLeft animate__delay-1s">
+                </motion.div>
+                <motion.div viewport={{once:true}} whileInView={{x:0}} initial={{x:-300}} transition={{ duration: 1.5, type: "tween"  } } className="col-md-3 buss  ">
                     <div className="innercolServ ">
                         <div className='img6'></div>
                   
                         
                     </div>
                     <div className="colored m-auto  text-center">
-                    <h3 className='ourServH3 mt-4  mb-3 red-border position-relative '>
+                    <h3 className='ourServH3 mt-4  mb-3 green-border position-relative '>
                     BUSINESS PROCESS OUTSOURCING                    </h3>
                     </div>
                     <div className="outerCol  m-auto w-100 text-center">
@@ -126,7 +122,7 @@ export default function OurServices() {
                     Our team has the required knowledge and experience of designing, implementing, and managing outsourced customer management that suite every business. This is to ensure your existing customers maintain a positive impression of your business and advocate for your brand.
                         </p>                  
                         </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     </div>

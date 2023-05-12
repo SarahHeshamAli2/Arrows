@@ -1,0 +1,24 @@
+
+.inputs {
+    display: flex;
+}
+.userEmail {
+    margin: 0 1rem;
+}
+@media (max-width: 650px) { 
+    .inputs {
+        display: block !important;
+        
+    }
+    .userEmail {
+        margin: 0;
+    }
+
+    .inputs input {
+        margin: 8px 0;
+    }
+    .formBtn {
+        width: 100%;
+    }
+
+ }
