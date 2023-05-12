@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Arrows/static/css/main.118b23ef.css",
-    "main.js": "/Arrows/static/js/main.0bdda1a4.js",
+    "main.css": "/Arrows/static/css/main.b0aa64b7.css",
+    "main.js": "/Arrows/static/js/main.19f26b61.js",
     "static/media/business-brainstorming-graph-chart-report-data-concept.jpg": "/Arrows/static/media/business-brainstorming-graph-chart-report-data-concept.295dbd6bd5da3e5faa0d.jpg",
     "static/media/782497__mv2.png": "/Arrows/static/media/782497_178560782fee4305ba4cb0b5949de111_mv2.f42fe8fb99984983b23c.png",
     "static/media/fa-solid-900.ttf": "/Arrows/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
@@ -22,11 +22,11 @@
     "static/media/fa-v4compatibility.ttf": "/Arrows/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Arrows/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Arrows/index.html",
-    "main.118b23ef.css.map": "/Arrows/static/css/main.118b23ef.css.map",
-    "main.0bdda1a4.js.map": "/Arrows/static/js/main.0bdda1a4.js.map"
+    "main.b0aa64b7.css.map": "/Arrows/static/css/main.b0aa64b7.css.map",
+    "main.19f26b61.js.map": "/Arrows/static/js/main.19f26b61.js.map"
   },
   "entrypoints": [
-    "static/css/main.118b23ef.css",
-    "static/js/main.0bdda1a4.js"
+    "static/css/main.b0aa64b7.css",
+    "static/js/main.19f26b61.js"
   ]
 }
