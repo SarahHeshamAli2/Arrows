@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Footer from './Components/Footer/Footer'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+
+import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom'
 import Layout from './Components/Layout/Layout'
 import Home from './Components/Home/Home'
 import ContactTab from './Components/ContactTab/ContactTab'
@@ -20,7 +19,7 @@ import LoadingScreen from './Components/LoadingScreen/LoadingScreen'
 
 export default function App() {
 
-  const router = createBrowserRouter([{path:"",element:<Layout/>,children:[{path:"home",element:<Home/>},{index:true , element:<Home/>},
+  const router = createHashRouter([{path:"",element:<Layout/>,children:[{path:"home",element:<Home/>},{index:true , element:<Home/>},
   {path:"contact-us",element:<ContactTab/>},
   {path:"about-us",element:<AboutUs/>},
   {path:"vision",element:<Vission/>},
