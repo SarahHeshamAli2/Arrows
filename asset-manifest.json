@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Arrows/static/css/main.118b23ef.css",
+    "main.js": "/Arrows/static/js/main.0bdda1a4.js",
+    "static/media/business-brainstorming-graph-chart-report-data-concept.jpg": "/Arrows/static/media/business-brainstorming-graph-chart-report-data-concept.295dbd6bd5da3e5faa0d.jpg",
+    "static/media/782497__mv2.png": "/Arrows/static/media/782497_178560782fee4305ba4cb0b5949de111_mv2.f42fe8fb99984983b23c.png",
+    "static/media/fa-solid-900.ttf": "/Arrows/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/5672795.jpg": "/Arrows/static/media/5672795.b961215ed68180048b98.jpg",
+    "static/media/fa-brands-400.ttf": "/Arrows/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Arrows/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/Arrows/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/Arrows/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/DSC_0813-300x300.jpg": "/Arrows/static/media/DSC_0813-300x300.bc691125f15d6f2b58dc.jpg",
+    "static/media/social-media-management-500-e1513971301308.png": "/Arrows/static/media/social-media-management-500-e1513971301308.b66d7309ae65e684bc47.png",
+    "static/media/fa-regular-400.woff2": "/Arrows/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/cust3-e1628861910199.png": "/Arrows/static/media/cust3-e1628861910199.8a85f3d08aac6a40ca83.png",
+    "static/media/cropped-Screen-Shot-2017-07-18-at-7.30.30-PM-6.png": "/Arrows/static/media/cropped-Screen-Shot-2017-07-18-at-7.30.30-PM-6.a5803ceb003d98c76d1a.png",
+    "static/media/logo-medrite-2.jpg": "/Arrows/static/media/logo-medrite-2.9414d0ccd2b9d4bdf791.jpg",
+    "static/media/skyfive-arabia-logo-300x76.png": "/Arrows/static/media/skyfive-arabia-logo-300x76.4749b2c2d197a1cbba18.png",
+    "static/media/social-media-management-150x150.png": "/Arrows/static/media/social-media-management-150x150.7cd4d34c67f92ae0f192.png",
+    "static/media/an200.png": "/Arrows/static/media/an200.8d2e574b0a926872dff7.png",
+    "static/media/fa-v4compatibility.ttf": "/Arrows/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Arrows/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Arrows/index.html",
+    "main.118b23ef.css.map": "/Arrows/static/css/main.118b23ef.css.map",
+    "main.0bdda1a4.js.map": "/Arrows/static/js/main.0bdda1a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.118b23ef.css",
+    "static/js/main.0bdda1a4.js"
+  ]
+}
