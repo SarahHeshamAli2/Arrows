@@ -3,6 +3,15 @@ import $ from "jquery"
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
+  function hideNav( ) {
+    $(".navbar-toggler").addClass("collapsed")
+    $(".navbar-collapse").removeClass("show")
+    
+    $(".navbar-collapse").addClass("collapse")
+    $(".navbar-toggler").attr("aria-expanded","false")
+    
+    
+    }
 function toggleActiveClass() {
     $(".nav-link").click(function() {
         $(".nav-link").removeClass("active");
@@ -25,7 +34,7 @@ useEffect(()=>{
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link to={"/home"}  className="nav-link active borderBottom" aria-current="page">Home</Link>
+          <Link onClick={hideNav} to={"/home"}  className="nav-link active borderBottom" aria-current="page">Home</Link>
         </li>
  
         <li className="nav-item dropdown">
@@ -33,27 +42,27 @@ useEffect(()=>{
             Services
           </Link>
           <ul className="dropdown-menu navDropDown">
-            <li><Link to={"/managementConsultancy"} className="dropdown-item">Management Consultancy</Link></li>
-            <li><Link to={"/HRConsultancy"} className="dropdown-item">HR Consultancy</Link></li>
-            <li><Link to={"/socialMediaManagement"} className="dropdown-item">Social Media Management</Link></li>
-            <li><Link to={"/DigitalTransformation"} className="dropdown-item">Digital Transformation</Link></li>
-            <li><Link to={"/BusinessDevelopment"} className="dropdown-item">Business Development</Link></li>
-            <li><Link to={"/BusinessProcess"} className="dropdown-item">Business Process Outsourcing</Link></li>
-            <li><Link to={"/CustomerExperience"} className="dropdown-item">Customer Experience Consultancy</Link></li>
-            <li><Link to={"/reportAndAnalytics"} className="dropdown-item">Reporting and Analytics</Link></li>
+            <li><Link onClick={hideNav} to={"/managementConsultancy"} className="dropdown-item">Management Consultancy</Link></li>
+            <li><Link onClick={hideNav} to={"/HRConsultancy"} className="dropdown-item">HR Consultancy</Link></li>
+            <li><Link onClick={hideNav} to={"/socialMediaManagement"} className="dropdown-item">Social Media Management</Link></li>
+            <li><Link onClick={hideNav} to={"/DigitalTransformation"} className="dropdown-item">Digital Transformation</Link></li>
+            <li><Link onClick={hideNav} to={"/BusinessDevelopment"} className="dropdown-item">Business Development</Link></li>
+            <li><Link onClick={hideNav} to={"/BusinessProcess"} className="dropdown-item">Business Process Outsourcing</Link></li>
+            <li><Link onClick={hideNav} to={"/CustomerExperience"} className="dropdown-item">Customer Experience Consultancy</Link></li>
+            <li><Link onClick={hideNav} to={"/reportAndAnalytics"} className="dropdown-item">Reporting and Analytics</Link></li>
           </ul>
         </li>
         <li className="nav-item">
-          <Link to={"/faq"} className="nav-link " aria-current="page">FAQ</Link>
+          <Link onClick={hideNav} to={"/faq"} className="nav-link " aria-current="page">FAQ</Link>
         </li>
         <li className="nav-item">
-          <Link to={"/contact-us"} className="nav-link " aria-current="page">Contact Us</Link>
+          <Link onClick={hideNav} to={"/contact-us"} className="nav-link " aria-current="page">Contact Us</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to={"/about-us"} aria-current="page">About</Link>
+          <Link onClick={hideNav} className="nav-link " to={"/about-us"} aria-current="page">About</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to={"/vision"} aria-current="page">Vision and Mission</Link>
+          <Link onClick={hideNav} className="nav-link " to={"/vision"} aria-current="page">Vision and Mission</Link>
         </li>
       </ul>
    

@@ -19,13 +19,8 @@ h1,h2 {
   font-weight: 700;
   
 }
-.dropdown:hover>.dropdown-menu {
-  display: block;
-}
 
-.dropdown>.dropdown-toggle:active {
-    pointer-events: none;
-}
+
 .navDropDown {
 
     background: #fff;
@@ -326,6 +321,8 @@ background-position: center;
 
 @media (max-width: 650px) {
 
+
+
   .headerP {
     width: 100% !important;
     font-size: 2.3rem;
@@ -333,6 +330,16 @@ background-position: center;
   }
   .innerWho {
     font-size: 35px;
+  }
+}
+@media (min-width : 987.5px) 
+ {
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
   }
 }
 .cont {
@@ -384,3 +391,4 @@ background-position: center;
 .aboutUs {
   font-size: 20px;
 }
+
